@@ -1,0 +1,15 @@
+ L’account è stato creato
+Possono passare fino a 5 minuti prima che tu possa collegarti al tuo spazio web con i dati di accesso.
+
+Server / Host
+access-5018563826.webspace-host.com
+Porta
+22
+Protocollo
+SFTP
+Nome utente
+a269868
+Password
+(La password che hai impostato per questo accesso)
+
+Hai dimenticato la password

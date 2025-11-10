@@ -1,0 +1,6 @@
+Contact: mailto:security@italianfreelance.com
+Expires: 2026-12-31T23:59:00Z
+Preferred-Languages: it, en
+Canonical: https://italianfreelance.com/.well-known/security.txt
+Policy: https://italianfreelance.com/policy
+Hiring: https://italianfreelance.com/jobs

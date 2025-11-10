@@ -1,0 +1,14 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://italianfreelance.com/sitemap.xml
+
+# Protezione opzionale
+Disallow: /admin/
+Disallow: /debug.html
+Disallow: /bozze/
+Disallow: /test/
+
+# Sicurezza
+Contact: security@italianfreelance.com
+Policy: https://italianfreelance.com/security.txt

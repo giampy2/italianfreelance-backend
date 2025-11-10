@@ -1,0 +1,194 @@
+/* Stile base */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #e63946;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.back-home {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.back-home a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  flex: 1 1 300px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #e63946;
+  font-size: 1.3em;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.card a.contact-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.avviso-contatti {
+  background: #fff4f4;
+  border-left: 4px solid #e63946;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #a00;
+  border-radius: 5px;
+}
+
+.partner {
+  border: 2px solid #e63946;
+}
+
+.partner h2 {
+  color: #1a1a1a;
+}
+
+.partner .contact-btn {
+  background: #1a1a1a;
+}
+
+footer {
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #e63946;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+}
+
+.form-box {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #e63946;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+.bottone {
+  background: #e63946;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.bottone:hover {
+  background: #d62828;
+}

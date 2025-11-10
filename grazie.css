@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+  color: #333;
+}
+h1 {
+  color: #e63946;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+a {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #e63946;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+a:hover {
+  background: #d62839;
+}
